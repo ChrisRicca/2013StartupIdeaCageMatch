@@ -1,0 +1,17 @@
+/* line 8, index.css.scss */
+.day-number {
+  font-size: 7em;
+  text-align: center; }
+
+/* line 14, index.css.scss */
+.day-listing {
+  margin-bottom: 20px; }
+
+/* line 19, index.css.scss */
+.day-listing .vote-container {
+  display: none; }
+
+/* line 24, index.css.scss */
+.day-listing .title,
+.day-listing .show-vote {
+  font-size: 2em; }

@@ -12956,6 +12956,15 @@ if ( typeof define === "function" && define.amd && define.amd.jQuery ) {
 }(Foundation.zj, this, this.document));
 (function() {
 
+  $('.show-vote').on('click', function(e) {
+    $(this).hide();
+    $(this).siblings('.vote-container').slideDown();
+    return e.preventDefault();
+  });
+
+}).call(this);
+(function() {
+
   (function($, window, undefined_) {
     "use strict";
 
