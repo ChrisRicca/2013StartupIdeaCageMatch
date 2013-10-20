@@ -1,17 +1,37 @@
-/* line 8, index.css.scss */
+/* line 5, index.css.scss */
+.names .left-title a {
+  text-align: right;
+  display: inline-block;
+  width: 100%; }
+
+/* line 11, index.css.scss */
 .day-number {
-  font-size: 7em;
+  font-size: 3em;
   text-align: center; }
 
-/* line 14, index.css.scss */
+/* line 17, index.css.scss */
 .day-listing {
-  margin-bottom: 20px; }
+  margin-bottom: 30px; }
 
-/* line 19, index.css.scss */
+/* line 22, index.css.scss */
 .day-listing .vote-container {
   display: none; }
 
-/* line 24, index.css.scss */
-.day-listing .title,
+/* line 27, index.css.scss */
+.day-listing .vs {
+  font-size: 3em;
+  text-align: center;
+  color: #EEE; }
+
+/* line 33, index.css.scss */
+.day-listing .title.left {
+  text-align: right; }
+
+/* line 38, index.css.scss */
+.day-listing .title {
+  font-size: 2em;
+  display: block; }
+
+/* line 44, index.css.scss */
 .day-listing .show-vote {
-  font-size: 2em; }
+  margin-bottom: 0; }
