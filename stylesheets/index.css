@@ -30,8 +30,9 @@
 /* line 38, index.css.scss */
 .day-listing .title {
   font-size: 2em;
-  display: block; }
+  display: block;
+  width: 100%; }
 
-/* line 44, index.css.scss */
+/* line 45, index.css.scss */
 .day-listing .show-vote {
   margin-bottom: 0; }
