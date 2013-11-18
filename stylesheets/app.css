@@ -4522,45 +4522,67 @@ ol.unstyled {
   margin-left: 0;
   list-style: none; }
 
-/* line 5, index.css.scss */
+/* line 2, index.css.scss */
+h3.header {
+  text-align: center; }
+
+/* line 6, index.css.scss */
 .names .left-title a {
   text-align: right;
   display: inline-block;
   width: 100%; }
 
-/* line 11, index.css.scss */
+/* line 12, index.css.scss */
 .day-number {
   font-size: 3em;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 20px; }
 
-/* line 17, index.css.scss */
+@media only screen and (min-width: 48em) {
+  /* line 20, index.css.scss */
+  .day-number {
+    margin-bottom: 0; } }
+/* line 25, index.css.scss */
 .day-listing {
   margin-bottom: 30px; }
 
-/* line 22, index.css.scss */
+/* line 30, index.css.scss */
 .day-listing .vote-container {
   display: none; }
 
-/* line 27, index.css.scss */
+/* line 35, index.css.scss */
 .day-listing .vs {
   font-size: 3em;
   text-align: center;
   color: #EEE; }
 
-/* line 33, index.css.scss */
-.day-listing .title.left {
-  text-align: right; }
+/* line 42, index.css.scss */
+.day-listing .title {
+  text-align: center; }
 
-/* line 38, index.css.scss */
+@media only screen and (min-width: 48em) {
+  /* line 48, index.css.scss */
+  .day-listing .title {
+    text-align: left; }
+
+  /* line 52, index.css.scss */
+  .day-listing .title.left {
+    text-align: right; } }
+/* line 59, index.css.scss */
 .day-listing .title {
   font-size: 2em;
   display: block;
   width: 100%; }
 
-/* line 45, index.css.scss */
+/* line 66, index.css.scss */
 .day-listing .show-vote {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  margin-top: 30px; }
 
+@media only screen and (min-width: 48em) {
+  /* line 72, index.css.scss */
+  .day-listing .show-vote {
+    margin-top: 0; } }
 /* Smaller than standard 960 (devices and browsers) */
 /* Tablet Portrait size to standard 960 (devices and browsers) */
 /* All Mobile Sizes (devices and browser) */
